@@ -6,7 +6,7 @@ import os
 
 import sys
 
-@borg.on(events.NewMessage(pattern=r"\.bombs", outgoing=True))
+@borg.on(events.NewMessage(pattern=r"\.mir", outgoing=True))
 
 async def _(event):
 
@@ -14,45 +14,28 @@ async def _(event):
 
         return
 
+        await event.edit("🇺🇦")
+
+    await asyncio.sleep(0.5)
+
+       await event.edit("🇺🇦🤝")
+
+    await asyncio.sleep(0.5)
+
+       await event.edit("🇺🇦🤝🇷🇺")
+
+    await asyncio.sleep(0.5)
+
+    
+
+        
+
        
 
  
 
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n")
+    
 
     await asyncio.sleep(0.5)
 
-    await event.edit("💣💣💣💣 \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n")
-
-    await asyncio.sleep(0.5)
-
-    await event.edit("▪️▪️▪️▪️ \n💣💣💣💣 \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n")
-
-    await asyncio.sleep(0.5)
-
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💣💣💣💣 \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n")
-
-    await asyncio.sleep(0.5)
-
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💣💣💣💣 \n▪️▪️▪️▪️ \n")
-
-    await asyncio.sleep(0.5)
-
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💣💣💣💣 \n")
-
-    await asyncio.sleep(1)
-
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💥💥💥💥 \n")
-
-    await asyncio.sleep(0.5)
-
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n💥💥💥💥 \n💥💥💥💥 \n")
-
-    await asyncio.sleep(0.5)
-
-    await event.edit("▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n▪️▪️▪️▪️ \n😵😵😵😵 \n")
-
-    await asyncio.sleep(0.5)
-
-    await event.edit("Я люблю когда волосатые мужики обмазываются маслом")
-
+    await event.edit("")
